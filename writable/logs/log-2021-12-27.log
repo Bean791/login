@@ -1,0 +1,711 @@
+CRITICAL - 2021-12-27 00:00:03 --> Class name must be a valid object or a string
+#0 D:\Leptop\web\htdocs\Web1\login\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+#1 D:\Leptop\web\htdocs\Web1\login\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#2 D:\Leptop\web\htdocs\Web1\login\vendor\myth\auth\src\Config\Services.php(86): CodeIgniter\Config\BaseService::getSharedInstance('activator', NULL)
+#3 D:\Leptop\web\htdocs\Web1\login\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator()
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(937): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#5 D:\Leptop\web\htdocs\Web1\login\vendor\myth\auth\src\Controllers\AuthController.php(195): service('activator')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->attemptRegister()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 01:57:45 --> Class name must be a valid object or a string
+#0 D:\Leptop\web\htdocs\Web1\login\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+#1 D:\Leptop\web\htdocs\Web1\login\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#2 D:\Leptop\web\htdocs\Web1\login\vendor\myth\auth\src\Config\Services.php(86): CodeIgniter\Config\BaseService::getSharedInstance('activator', NULL)
+#3 D:\Leptop\web\htdocs\Web1\login\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator()
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(937): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#5 D:\Leptop\web\htdocs\Web1\login\vendor\myth\auth\src\Controllers\AuthController.php(195): service('activator')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->attemptRegister()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 02:20:20 --> Class name must be a valid object or a string
+#0 D:\Leptop\web\htdocs\Web1\login\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator(Object(Myth\Auth\Config\Auth), false)
+#1 D:\Leptop\web\htdocs\Web1\login\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#2 D:\Leptop\web\htdocs\Web1\login\vendor\myth\auth\src\Config\Services.php(86): CodeIgniter\Config\BaseService::getSharedInstance('activator', NULL)
+#3 D:\Leptop\web\htdocs\Web1\login\system\Config\BaseService.php(248): Myth\Auth\Config\Services::activator()
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(937): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#5 D:\Leptop\web\htdocs\Web1\login\vendor\myth\auth\src\Controllers\AuthController.php(195): service('activator')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->attemptRegister()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 03:14:26 --> syntax error, unexpected 'endif' (T_ENDIF), expecting end of file
+#0 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(432): CodeIgniter\View\View->render('Template/sideba...', NULL, true)
+#2 D:\Leptop\web\htdocs\Web1\login\app\Views\Template\index.php(30): CodeIgniter\View\View->include('Template/sideba...')
+#3 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#4 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(230): CodeIgniter\View\View->render('Template/index', Array, true)
+#6 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#7 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(9): view('user/index')
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#9 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#13 {main}
+CRITICAL - 2021-12-27 05:15:31 --> Undefined variable: title
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\Template\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 11, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(230): CodeIgniter\View\View->render('Template/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#5 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(9): view('user/index')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 05:18:47 --> Undefined variable: title
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\Template\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 11, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(230): CodeIgniter\View\View->render('Template/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#5 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(9): view('user/index')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 05:20:29 --> Undefined variable: title
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\Template\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 11, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(230): CodeIgniter\View\View->render('Template/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#5 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(9): view('user/index')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 05:20:37 --> Undefined variable: title
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\Template\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 11, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(230): CodeIgniter\View\View->render('Template/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#5 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(9): view('user/index')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 05:28:37 --> Undefined variable: title
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\Template\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 11, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(230): CodeIgniter\View\View->render('Template/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#5 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(9): view('user/index')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 05:29:37 --> Undefined variable: title
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\Template\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 11, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(230): CodeIgniter\View\View->render('Template/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#5 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(9): view('user/index')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 05:32:43 --> Undefined variable: title
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\Template\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 11, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(230): CodeIgniter\View\View->render('Template/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#5 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(9): view('user/index')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 05:35:49 --> Undefined variable: title
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\Template\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 11, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(230): CodeIgniter\View\View->render('Template/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#5 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(10): view('user/index')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 05:35:52 --> Undefined variable: title
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\Template\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 11, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(230): CodeIgniter\View\View->render('Template/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#5 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(10): view('user/index')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 05:35:57 --> Undefined variable: title
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\Template\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 11, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(230): CodeIgniter\View\View->render('Template/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#5 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(10): view('user/index')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 05:35:59 --> Undefined variable: title
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\Template\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 11, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(230): CodeIgniter\View\View->render('Template/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#5 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(10): view('user/index')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 05:37:57 --> Undefined variable: Judul
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\Template\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 11, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(230): CodeIgniter\View\View->render('Template/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#5 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(10): view('user/index')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 05:39:11 --> Undefined variable: Judul
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\Template\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 11, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(230): CodeIgniter\View\View->render('Template/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#5 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(10): view('user/index')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 05:39:45 --> Undefined variable: Judul
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\Template\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 11, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(230): CodeIgniter\View\View->render('Template/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#5 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(10): view('user/index')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 05:45:18 --> Undefined variable: Judul
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\Template\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 11, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(230): CodeIgniter\View\View->render('Template/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#5 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(10): view('user/index')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 05:47:24 --> Undefined variable: Data
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\Template\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 11, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(230): CodeIgniter\View\View->render('Template/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#5 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(10): view('user/index')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 05:47:27 --> Undefined variable: Data
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\Template\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 11, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(230): CodeIgniter\View\View->render('Template/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#5 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(10): view('user/index')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 05:47:29 --> Undefined variable: Data
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\Template\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 11, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(230): CodeIgniter\View\View->render('Template/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#5 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(10): view('user/index')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 05:53:09 --> Undefined variable: Data
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\Template\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 11, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(230): CodeIgniter\View\View->render('Template/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#5 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(10): view('user/index')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#11 {main}
+CRITICAL - 2021-12-27 06:13:45 --> syntax error, unexpected end of file
+#0 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('Admin/index', Array, true)
+#2 D:\Leptop\web\htdocs\Web1\login\app\Controllers\Admin.php(12): view('Admin/index', Array)
+#3 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#4 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#8 {main}
+ERROR - 2021-12-27 19:19:03 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-12-27 19:19:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\Leptop\web\htdocs\Web1\login\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Leptop\web\htdocs\Web1\login\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Leptop\web\htdocs\Web1\login\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Leptop\web\htdocs\Web1\login\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 D:\Leptop\web\htdocs\Web1\login\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 D:\Leptop\web\htdocs\Web1\login\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#6 D:\Leptop\web\htdocs\Web1\login\vendor\myth\auth\src\Controllers\AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#12 {main}
+CRITICAL - 2021-12-27 19:43:40 --> syntax error, unexpected 'return' (T_RETURN)
+#0 D:\Leptop\web\htdocs\Web1\login\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('Admin')
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Admin')
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#6 {main}
+ERROR - 2021-12-27 19:44:00 --> Table 'login.auth_groups_user' doesn't exist
+CRITICAL - 2021-12-27 19:44:00 --> Table 'login.auth_groups_user' doesn't exist
+#0 D:\Leptop\web\htdocs\Web1\login\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 D:\Leptop\web\htdocs\Web1\login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 D:\Leptop\web\htdocs\Web1\login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 D:\Leptop\web\htdocs\Web1\login\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 D:\Leptop\web\htdocs\Web1\login\app\Controllers\Admin.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#10 {main}
+ERROR - 2021-12-27 19:45:15 --> Table 'login.auth_groups_user' doesn't exist
+CRITICAL - 2021-12-27 19:45:15 --> Table 'login.auth_groups_user' doesn't exist
+#0 D:\Leptop\web\htdocs\Web1\login\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 D:\Leptop\web\htdocs\Web1\login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 D:\Leptop\web\htdocs\Web1\login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 D:\Leptop\web\htdocs\Web1\login\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 D:\Leptop\web\htdocs\Web1\login\app\Controllers\Admin.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#10 {main}
+ERROR - 2021-12-27 19:45:22 --> Table 'login.auth_groups_user' doesn't exist
+CRITICAL - 2021-12-27 19:45:22 --> Table 'login.auth_groups_user' doesn't exist
+#0 D:\Leptop\web\htdocs\Web1\login\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 D:\Leptop\web\htdocs\Web1\login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 D:\Leptop\web\htdocs\Web1\login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 D:\Leptop\web\htdocs\Web1\login\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 D:\Leptop\web\htdocs\Web1\login\app\Controllers\Admin.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#10 {main}
+ERROR - 2021-12-27 19:45:33 --> Table 'login.auth_groups_user' doesn't exist
+CRITICAL - 2021-12-27 19:45:33 --> Table 'login.auth_groups_user' doesn't exist
+#0 D:\Leptop\web\htdocs\Web1\login\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 D:\Leptop\web\htdocs\Web1\login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 D:\Leptop\web\htdocs\Web1\login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 D:\Leptop\web\htdocs\Web1\login\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 D:\Leptop\web\htdocs\Web1\login\app\Controllers\Admin.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#10 {main}
+CRITICAL - 2021-12-27 20:07:10 --> Too few arguments to function App\Controllers\Admin::detail(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\Admin->detail()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 20:09:46 --> Too few arguments to function App\Controllers\Admin::detail(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\Admin->detail()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+ERROR - 2021-12-27 20:47:14 --> Unknown column 'fullname' in 'field list'
+CRITICAL - 2021-12-27 20:47:15 --> Unknown column 'fullname' in 'field list'
+#0 D:\Leptop\web\htdocs\Web1\login\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 D:\Leptop\web\htdocs\Web1\login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 D:\Leptop\web\htdocs\Web1\login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 D:\Leptop\web\htdocs\Web1\login\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 D:\Leptop\web\htdocs\Web1\login\app\Controllers\Admin.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\Admin->detail('6')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#10 {main}
+ERROR - 2021-12-27 20:47:29 --> Unknown column 'fullname' in 'field list'
+CRITICAL - 2021-12-27 20:47:29 --> Unknown column 'fullname' in 'field list'
+#0 D:\Leptop\web\htdocs\Web1\login\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 D:\Leptop\web\htdocs\Web1\login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 D:\Leptop\web\htdocs\Web1\login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 D:\Leptop\web\htdocs\Web1\login\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 D:\Leptop\web\htdocs\Web1\login\app\Controllers\Admin.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\Admin->detail('6')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#10 {main}
+CRITICAL - 2021-12-27 20:54:55 --> Undefined property: stdClass::$full
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\Admin\detail.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Leptop\\web\\h...', 21, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('Admin/detail', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\app\Controllers\Admin.php(36): view('Admin/detail', Array)
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\Admin->detail('6')
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#10 {main}
+CRITICAL - 2021-12-27 22:11:10 --> Undefined variable: user
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\user\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 13, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(10): view('user/index')
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#10 {main}
+CRITICAL - 2021-12-27 22:12:40 --> Undefined variable: user
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\user\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 21, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(10): view('user/index')
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#10 {main}
+CRITICAL - 2021-12-27 23:07:52 --> Undefined variable: user
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\user\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 26, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(10): view('user/index')
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#10 {main}
+CRITICAL - 2021-12-27 23:08:21 --> Undefined variable: user
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\user\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 26, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(10): view('user/index')
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#10 {main}
+CRITICAL - 2021-12-27 23:08:58 --> Cannot use object of type Myth\Auth\Entities\User as array
+#0 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include()
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#3 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(10): view('user/index')
+#4 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#9 {main}
+CRITICAL - 2021-12-27 23:09:28 --> Object of class Myth\Auth\Entities\User could not be converted to string
+#0 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include()
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#3 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(10): view('user/index')
+#4 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#9 {main}
+CRITICAL - 2021-12-27 23:10:00 --> Cannot use object of type Myth\Auth\Entities\User as array
+#0 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include()
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#3 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(10): view('user/index')
+#4 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#9 {main}
+CRITICAL - 2021-12-27 23:12:31 --> Object of class Myth\Auth\Entities\User could not be converted to string
+#0 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include()
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#3 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(10): view('user/index')
+#4 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#9 {main}
+CRITICAL - 2021-12-27 23:21:41 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:21:42 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:21:43 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:21:43 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:21:44 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:21:44 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:21:44 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:21:44 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:21:45 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:24:24 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:24:25 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:24:25 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:24:25 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:24:25 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:24:26 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:24:26 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:24:26 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:24:57 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:24:59 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:27:12 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:27:46 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:28:58 --> Too few arguments to function App\Controllers\User::index(), 0 passed in D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#5 {main}
+CRITICAL - 2021-12-27 23:29:48 --> Trying to get property 'user_img' of non-object
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\user\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Leptop\\web\\h...', 13, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(19): view('user/index', Array)
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#10 {main}
+CRITICAL - 2021-12-27 23:31:33 --> Undefined variable: users
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\user\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Leptop\\web\\h...', 13, Array)
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\app\Controllers\user.php(19): view('user/index', Array)
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\User->index()
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#10 {main}

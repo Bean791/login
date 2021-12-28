@@ -1,0 +1,163 @@
+CRITICAL - 2021-12-26 19:52:35 --> View themes, no current section.
+#0 D:\Leptop\web\htdocs\Web1\login\app\Views\user\index.php(9): CodeIgniter\View\View->endSection()
+#1 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('user/index', Array, true)
+#4 D:\Leptop\web\htdocs\Web1\login\app\Controllers\Home.php(9): view('user/index')
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-26 20:33:48 -->  login filter must have a matching alias defined.
+#0 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(496): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias(' login')
+#1 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('/')
+#3 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-26 20:35:06 -->  login filter must have a matching alias defined.
+#0 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(496): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias(' login')
+#1 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('/')
+#3 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-26 20:37:16 -->  login filter must have a matching alias defined.
+#0 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(496): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias(' login')
+#1 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('/')
+#3 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-26 20:38:03 -->  login filter must have a matching alias defined.
+#0 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(496): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias(' login')
+#1 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('/')
+#3 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-26 21:06:25 --> login.php filter must have a matching alias defined.
+#0 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(496): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('login.php')
+#1 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#7 {main}
+CRITICAL - 2021-12-26 21:08:35 --> login.php filter must have a matching alias defined.
+#0 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(496): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('login.php')
+#1 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('login')
+#3 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#7 {main}
+CRITICAL - 2021-12-26 21:08:41 --> login.php filter must have a matching alias defined.
+#0 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(496): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('login.php')
+#1 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('/')
+#3 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#7 {main}
+CRITICAL - 2021-12-26 21:09:17 --> login.php filter must have a matching alias defined.
+#0 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(496): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('login.php')
+#1 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('/')
+#3 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#7 {main}
+CRITICAL - 2021-12-26 21:11:46 --> login.php filter must have a matching alias defined.
+#0 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(496): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('login.php')
+#1 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('/')
+#3 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#7 {main}
+CRITICAL - 2021-12-26 21:23:50 --> login.php filter must have a matching alias defined.
+#0 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(496): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('login.php')
+#1 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 D:\Leptop\web\htdocs\Web1\login\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('/')
+#3 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#7 {main}
+CRITICAL - 2021-12-26 21:28:44 --> Invalid file: app\Views\login.php
+#0 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app\\Views\\login...')
+#1 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('app\\Views\\login', Array, true)
+#2 D:\Leptop\web\htdocs\Web1\login\vendor\myth\auth\src\Controllers\AuthController.php(429): view('app\\Views\\login', Array)
+#3 D:\Leptop\web\htdocs\Web1\login\vendor\myth\auth\src\Controllers\AuthController.php(57): Myth\Auth\Controllers\AuthController->_render('app\\Views\\login', Array)
+#4 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->login()
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#9 {main}
+CRITICAL - 2021-12-26 21:29:34 --> Invalid file: \App\Views\auth\login.php
+#0 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\App\\Views\\auth...')
+#1 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('\\App\\Views\\auth...', Array, true)
+#2 D:\Leptop\web\htdocs\Web1\login\vendor\myth\auth\src\Controllers\AuthController.php(429): view('\\App\\Views\\auth...', Array)
+#3 D:\Leptop\web\htdocs\Web1\login\vendor\myth\auth\src\Controllers\AuthController.php(57): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\auth...', Array)
+#4 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->login()
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#9 {main}
+CRITICAL - 2021-12-26 21:29:55 --> Invalid file: \App\Views\Auth\login.php
+#0 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\App\\Views\\Auth...')
+#1 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('\\App\\Views\\Auth...', Array, true)
+#2 D:\Leptop\web\htdocs\Web1\login\vendor\myth\auth\src\Controllers\AuthController.php(429): view('\\App\\Views\\Auth...', Array)
+#3 D:\Leptop\web\htdocs\Web1\login\vendor\myth\auth\src\Controllers\AuthController.php(57): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth...', Array)
+#4 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->login()
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#9 {main}
+CRITICAL - 2021-12-26 21:30:56 --> Invalid file: \App\Views\Auth\login.php
+#0 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\App\\Views\\Auth...')
+#1 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('\\App\\Views\\Auth...', Array, true)
+#2 D:\Leptop\web\htdocs\Web1\login\vendor\myth\auth\src\Controllers\AuthController.php(429): view('\\App\\Views\\Auth...', Array)
+#3 D:\Leptop\web\htdocs\Web1\login\vendor\myth\auth\src\Controllers\AuthController.php(57): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth...', Array)
+#4 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->login()
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#9 {main}
+CRITICAL - 2021-12-26 21:32:04 --> Invalid file: \app\Views\auth\login.php
+#0 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\app\\Views\\auth...')
+#1 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('\\app\\Views\\auth...', Array, true)
+#2 D:\Leptop\web\htdocs\Web1\login\vendor\myth\auth\src\Controllers\AuthController.php(429): view('\\app\\Views\\auth...', Array)
+#3 D:\Leptop\web\htdocs\Web1\login\vendor\myth\auth\src\Controllers\AuthController.php(57): Myth\Auth\Controllers\AuthController->_render('\\app\\Views\\auth...', Array)
+#4 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->login()
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#9 {main}
+CRITICAL - 2021-12-26 22:40:06 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 D:\Leptop\web\htdocs\Web1\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Leptop\web\htdocs\Web1\login\system\Common.php(1097): CodeIgniter\View\View->render('\\App\\Views\\Auth...', Array, true)
+#2 D:\Leptop\web\htdocs\Web1\login\vendor\myth\auth\src\Controllers\AuthController.php(429): view('\\App\\Views\\Auth...', Array)
+#3 D:\Leptop\web\htdocs\Web1\login\vendor\myth\auth\src\Controllers\AuthController.php(57): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth...', Array)
+#4 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(824): Myth\Auth\Controllers\AuthController->login()
+#5 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Leptop\web\htdocs\Web1\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Robin\AppData\Roaming\Composer\vendor\cretueusebiu\valet-windows\server.php(241): require('D:\\Leptop\\web\\h...')
+#9 {main}

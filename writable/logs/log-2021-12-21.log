@@ -1,0 +1,33 @@
+CRITICAL - 2021-12-21 22:08:11 --> View themes, no current section.
+#0 D:\Leptop\web\htdocs\login\app\Views\auth\login.php(66): CodeIgniter\View\View->endSection()
+#1 D:\Leptop\web\htdocs\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\login\system\Common.php(1097): CodeIgniter\View\View->render('auth/login', Array, true)
+#4 D:\Leptop\web\htdocs\login\app\Controllers\Home.php(9): view('auth/login')
+#5 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Leptop\web\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 22:09:44 --> View themes, no current section.
+#0 D:\Leptop\web\htdocs\login\app\Views\auth\login.php(66): CodeIgniter\View\View->endSection()
+#1 D:\Leptop\web\htdocs\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\login\system\Common.php(1097): CodeIgniter\View\View->render('auth/login', Array, true)
+#4 D:\Leptop\web\htdocs\login\app\Controllers\Home.php(9): view('auth/login')
+#5 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Leptop\web\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-21 22:09:45 --> View themes, no current section.
+#0 D:\Leptop\web\htdocs\login\app\Views\auth\login.php(66): CodeIgniter\View\View->endSection()
+#1 D:\Leptop\web\htdocs\login\system\View\View.php(214): include('D:\\Leptop\\web\\h...')
+#2 D:\Leptop\web\htdocs\login\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Leptop\web\htdocs\login\system\Common.php(1097): CodeIgniter\View\View->render('auth/login', Array, true)
+#4 D:\Leptop\web\htdocs\login\app\Controllers\Home.php(9): view('auth/login')
+#5 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Leptop\web\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

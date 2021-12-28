@@ -1,0 +1,111 @@
+CRITICAL - 2021-12-22 02:35:16 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 D:\Leptop\web\htdocs\Web1\login\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\Leptop\web\htdocs\Web1\login\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\Leptop\web\htdocs\Web1\login\spark(45): require('...')
+#4 {main}
+CRITICAL - 2021-12-22 02:36:55 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\Leptop\web\htdocs\login\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\Leptop\web\htdocs\login\spark(45): require('...')
+#4 {main}
+CRITICAL - 2021-12-22 02:38:41 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\Leptop\web\htdocs\login\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\Leptop\web\htdocs\login\spark(45): require('...')
+#4 {main}
+CRITICAL - 2021-12-22 02:41:05 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\Leptop\web\htdocs\login\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\Leptop\web\htdocs\login\spark(45): require('...')
+#4 {main}
+CRITICAL - 2021-12-22 01:04:01 --> Invalid file: auth/user/index.php
+#0 D:\Leptop\web\htdocs\login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/user/index...')
+#1 D:\Leptop\web\htdocs\login\system\Common.php(1097): CodeIgniter\View\View->render('auth/user/index...', Array, true)
+#2 D:\Leptop\web\htdocs\login\app\Controllers\Home.php(9): view('auth/user/index...')
+#3 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Leptop\web\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-22 01:04:43 --> Call to undefined function auth()
+#0 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Leptop\web\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-22 01:06:18 --> Invalid file: auth/index.php
+#0 D:\Leptop\web\htdocs\login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/index.php')
+#1 D:\Leptop\web\htdocs\login\system\Common.php(1097): CodeIgniter\View\View->render('auth/index.php', Array, true)
+#2 D:\Leptop\web\htdocs\login\app\Controllers\Home.php(9): view('auth/index.php')
+#3 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Leptop\web\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-22 01:06:41 --> Invalid file: auth/index.php
+#0 D:\Leptop\web\htdocs\login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/index.php')
+#1 D:\Leptop\web\htdocs\login\system\Common.php(1097): CodeIgniter\View\View->render('auth/index', Array, true)
+#2 D:\Leptop\web\htdocs\login\app\Controllers\Home.php(9): view('auth/index')
+#3 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Leptop\web\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-22 01:06:44 --> Invalid file: auth/index.php
+#0 D:\Leptop\web\htdocs\login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/index.php')
+#1 D:\Leptop\web\htdocs\login\system\Common.php(1097): CodeIgniter\View\View->render('auth/index', Array, true)
+#2 D:\Leptop\web\htdocs\login\app\Controllers\Home.php(9): view('auth/index')
+#3 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Leptop\web\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-22 01:06:46 --> Invalid file: auth/index.php
+#0 D:\Leptop\web\htdocs\login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/index.php')
+#1 D:\Leptop\web\htdocs\login\system\Common.php(1097): CodeIgniter\View\View->render('auth/index', Array, true)
+#2 D:\Leptop\web\htdocs\login\app\Controllers\Home.php(9): view('auth/index')
+#3 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Leptop\web\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-22 01:06:54 --> Invalid file: auth/index.php
+#0 D:\Leptop\web\htdocs\login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/index.php')
+#1 D:\Leptop\web\htdocs\login\system\Common.php(1097): CodeIgniter\View\View->render('auth/index', Array, true)
+#2 D:\Leptop\web\htdocs\login\app\Controllers\Home.php(9): view('auth/index')
+#3 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Leptop\web\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-22 01:07:32 --> Invalid file: auth/user.php
+#0 D:\Leptop\web\htdocs\login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/user.php')
+#1 D:\Leptop\web\htdocs\login\system\Common.php(1097): CodeIgniter\View\View->render('auth/user', Array, true)
+#2 D:\Leptop\web\htdocs\login\app\Controllers\Home.php(9): view('auth/user')
+#3 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Leptop\web\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-22 01:07:34 --> Invalid file: auth/user.php
+#0 D:\Leptop\web\htdocs\login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/user.php')
+#1 D:\Leptop\web\htdocs\login\system\Common.php(1097): CodeIgniter\View\View->render('auth/user', Array, true)
+#2 D:\Leptop\web\htdocs\login\app\Controllers\Home.php(9): view('auth/user')
+#3 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Leptop\web\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-22 01:07:41 --> Invalid file: auth/user.php
+#0 D:\Leptop\web\htdocs\login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/user.php')
+#1 D:\Leptop\web\htdocs\login\system\Common.php(1097): CodeIgniter\View\View->render('auth/user', Array, true)
+#2 D:\Leptop\web\htdocs\login\app\Controllers\Home.php(9): view('auth/user')
+#3 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Leptop\web\htdocs\login\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Leptop\web\htdocs\login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
