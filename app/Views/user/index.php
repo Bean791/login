@@ -23,7 +23,7 @@
                                      <?php endif; ?>
                                 <li class="list-group-item"><?= user()->email; ?></li>
                                 </li>
-                                <li class="list-group-item"><a href="/app/Views/user/tambah.php"  class=" btn btn-primary mb-3">Tambah</a></li>
+                                <li class="list-group-item"><a href="/app/Views/user/edit.php"  class=" btn btn-primary mb-3">Edit</a></li>
                                 </li>
                                 
                             </ul>
